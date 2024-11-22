@@ -17,7 +17,7 @@ keep if statefips == 24 /* MD */
 keep if ftptstat != 1 /* labor force status: employed */
 
 *export 
-export delimited "C:\Users\rhian\My Drive\epi_org\epi-org.csv", replace
+export delimited "C:\Users\rhian\Github\epi\epi-org.csv", replace
 
 
 *update path in query below before running
@@ -35,4 +35,4 @@ sourcedir("C:\Users\rhian\My Drive\epi_basic")
 keep if statefips == 24 /* MD */
 keep if ftptstat != 1 /* labor force status: employed */
 
-export delimited "C:\Users\rhian\My Drive\epi_basic\epi-basic.csv", replace
+export delimited "C:\Users\rhian\Github\epi\epi-basic.csv", replace
